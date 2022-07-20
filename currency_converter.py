@@ -51,7 +51,7 @@ def currency_converter():
         }
         url = "https://api.apilayer.com/fixer/convert"
         headers = {
-            "apikey": "4WHDlrjPgAxHDAY5MlOapFEehZBJDqto"
+            "apikey": "PUT API KEY HERE"
         }
         response = requests.get(url, headers=headers, params=parameters)
         response.raise_for_status()
